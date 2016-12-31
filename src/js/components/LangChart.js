@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import { observer } from 'mobx-react'
 import { update, first, range, includes, uniqBy, reject, flatten, map,
     split, take, zipWith, divide, unzip, sum, filter, drop } from 'lodash/fp'
 import pr from '../../data/gh-pull-request.json'
@@ -7,6 +8,7 @@ import ReactHighcharts from 'react-highcharts'
 import { LangChartStore } from '../stores/LangChartStore'
 import { NonLangStore } from '../stores/NonLangStore'
 
+@observer
 export default class LangChart extends React.Component {
 
     constructor() {
@@ -45,6 +47,7 @@ export default class LangChart extends React.Component {
 
     createSeries(data) {
         const topLang = this.getTopLanguages(data)
+        this.props.store.create(topLang)
         return data
             | filter(o => includes(o.name)(topLang))
             | map(d => ({
