@@ -15,7 +15,7 @@ AS count FROM [bigquery-public-data:github_repos.languages]
 group by language.name order by count DESC
 ```
 
-Result of first 10 from 322
+First 10 Results
 ```Javascript
 {"language_name":"JavaScript","count":"1006022"}
 {"language_name":"CSS","count":"745573"}
@@ -68,6 +68,33 @@ SELECT event as pull_request, COUNT(*) as count FROM (
 GROUP by pull_request
 HAVING pull_request != 'null'
 order by count DESC;
+```
+### Average Repository Size
+Get the average repository size in kilobytes per language
+```SQL
+SELECT lang, INTEGER((SUM(bytes)/COUNT(lang))/1024) as avg_kb_size_per_repo
+FROM ( SELECT * FROM ( SELECT *,
+ROW_NUMBER() OVER (PARTITION BY repo_name ORDER BY lang) as num
+FROM ( SELECT repo_name,
+FIRST_VALUE(language.name) OVER (partition by repo_name order by language.bytes DESC) AS lang,
+FIRST_VALUE(language.bytes) OVER (partition by repo_name order by language.bytes DESC) AS bytes,
+FROM [bigquery-public-data:github_repos.languages] )
+) WHERE num = 1 order by repo_name
+) WHERE lang != 'null' GROUP BY lang ORDER BY avg_kb_size_per_repo DESC
+```
+First 10 Results
+```JavaScript
+{"lang":"Smali","avg_kb_size_per_repo":"50639"}
+{"lang":"C","avg_kb_size_per_repo":"49999"}
+{"lang":"Genshi","avg_kb_size_per_repo":"44151"}
+{"lang":"Arc","avg_kb_size_per_repo":"37548"}
+{"lang":"Web Ontology Language","avg_kb_size_per_repo":"29158"}
+{"lang":"OpenEdge ABL","avg_kb_size_per_repo":"20924"}
+{"lang":"Gnuplot","avg_kb_size_per_repo":"20083"}
+{"lang":"Bluespec","avg_kb_size_per_repo":"17640"}
+{"lang":"LLVM","avg_kb_size_per_repo":"14247"}
+{"lang":"SMT","avg_kb_size_per_repo":"14146"}
+...
 ```
 
 ### Manual  
