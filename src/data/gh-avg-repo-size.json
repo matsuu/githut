@@ -1,0 +1,310 @@
+{"lang":"Smali","avg_kb_size_per_repo":"50639"}
+{"lang":"C","avg_kb_size_per_repo":"49999"}
+{"lang":"Genshi","avg_kb_size_per_repo":"44151"}
+{"lang":"Arc","avg_kb_size_per_repo":"37548"}
+{"lang":"Web Ontology Language","avg_kb_size_per_repo":"29158"}
+{"lang":"OpenEdge ABL","avg_kb_size_per_repo":"20924"}
+{"lang":"Gnuplot","avg_kb_size_per_repo":"20083"}
+{"lang":"Bluespec","avg_kb_size_per_repo":"17640"}
+{"lang":"LLVM","avg_kb_size_per_repo":"14247"}
+{"lang":"SMT","avg_kb_size_per_repo":"14146"}
+{"lang":"IDL","avg_kb_size_per_repo":"13551"}
+{"lang":"Click","avg_kb_size_per_repo":"13029"}
+{"lang":"Scilab","avg_kb_size_per_repo":"12498"}
+{"lang":"HyPhy","avg_kb_size_per_repo":"11535"}
+{"lang":"DM","avg_kb_size_per_repo":"9733"}
+{"lang":"Gettext Catalog","avg_kb_size_per_repo":"9514"}
+{"lang":"Limbo","avg_kb_size_per_repo":"9134"}
+{"lang":"Factor","avg_kb_size_per_repo":"8900"}
+{"lang":"Diff","avg_kb_size_per_repo":"8519"}
+{"lang":"GAP","avg_kb_size_per_repo":"7878"}
+{"lang":"SQL","avg_kb_size_per_repo":"7496"}
+{"lang":"Groff","avg_kb_size_per_repo":"7486"}
+{"lang":"X10","avg_kb_size_per_repo":"7238"}
+{"lang":"PLpgSQL","avg_kb_size_per_repo":"7181"}
+{"lang":"VHDL","avg_kb_size_per_repo":"6792"}
+{"lang":"Eiffel","avg_kb_size_per_repo":"6011"}
+{"lang":"PowerBuilder","avg_kb_size_per_repo":"5686"}
+{"lang":"TXL","avg_kb_size_per_repo":"5577"}
+{"lang":"Lex","avg_kb_size_per_repo":"5572"}
+{"lang":"Mathematica","avg_kb_size_per_repo":"5514"}
+{"lang":"Objective-J","avg_kb_size_per_repo":"5418"}
+{"lang":"PLSQL","avg_kb_size_per_repo":"5399"}
+{"lang":"AGS Script","avg_kb_size_per_repo":"5110"}
+{"lang":"EQ","avg_kb_size_per_repo":"5101"}
+{"lang":"SQLPL","avg_kb_size_per_repo":"4902"}
+{"lang":"Lasso","avg_kb_size_per_repo":"4451"}
+{"lang":"POV-Ray SDL","avg_kb_size_per_repo":"4329"}
+{"lang":"Jupyter Notebook","avg_kb_size_per_repo":"4298"}
+{"lang":"Chapel","avg_kb_size_per_repo":"3877"}
+{"lang":"M","avg_kb_size_per_repo":"3771"}
+{"lang":"Ecl","avg_kb_size_per_repo":"3767"}
+{"lang":"Logos","avg_kb_size_per_repo":"3744"}
+{"lang":"Pan","avg_kb_size_per_repo":"3556"}
+{"lang":"Mercury","avg_kb_size_per_repo":"3348"}
+{"lang":"nesC","avg_kb_size_per_repo":"3213"}
+{"lang":"PostScript","avg_kb_size_per_repo":"3177"}
+{"lang":"DOT","avg_kb_size_per_repo":"3024"}
+{"lang":"C++","avg_kb_size_per_repo":"2649"}
+{"lang":"SQF","avg_kb_size_per_repo":"2622"}
+{"lang":"Isabelle","avg_kb_size_per_repo":"2575"}
+{"lang":"NewLisp","avg_kb_size_per_repo":"2566"}
+{"lang":"Component Pascal","avg_kb_size_per_repo":"2533"}
+{"lang":"TypeScript","avg_kb_size_per_repo":"2449"}
+{"lang":"Assembly","avg_kb_size_per_repo":"2433"}
+{"lang":"CLIPS","avg_kb_size_per_repo":"2366"}
+{"lang":"FORTRAN","avg_kb_size_per_repo":"2305"}
+{"lang":"Nemerle","avg_kb_size_per_repo":"2148"}
+{"lang":"1C Enterprise","avg_kb_size_per_repo":"2135"}
+{"lang":"Standard ML","avg_kb_size_per_repo":"2121"}
+{"lang":"PHP","avg_kb_size_per_repo":"2114"}
+{"lang":"APL","avg_kb_size_per_repo":"2102"}
+{"lang":"JavaScript","avg_kb_size_per_repo":"2026"}
+{"lang":"Oz","avg_kb_size_per_repo":"1979"}
+{"lang":"Jasmin","avg_kb_size_per_repo":"1930"}
+{"lang":"Pure Data","avg_kb_size_per_repo":"1915"}
+{"lang":"Game Maker Language","avg_kb_size_per_repo":"1856"}
+{"lang":"Grammatical Framework","avg_kb_size_per_repo":"1741"}
+{"lang":"Max","avg_kb_size_per_repo":"1693"}
+{"lang":"Modula-2","avg_kb_size_per_repo":"1683"}
+{"lang":"Eagle","avg_kb_size_per_repo":"1670"}
+{"lang":"HTML","avg_kb_size_per_repo":"1606"}
+{"lang":"Red","avg_kb_size_per_repo":"1597"}
+{"lang":"Brainfuck","avg_kb_size_per_repo":"1563"}
+{"lang":"Forth","avg_kb_size_per_repo":"1534"}
+{"lang":"ATS","avg_kb_size_per_repo":"1503"}
+{"lang":"Emacs Lisp","avg_kb_size_per_repo":"1484"}
+{"lang":"COBOL","avg_kb_size_per_repo":"1469"}
+{"lang":"Modelica","avg_kb_size_per_repo":"1463"}
+{"lang":"Verilog","avg_kb_size_per_repo":"1431"}
+{"lang":"UnrealScript","avg_kb_size_per_repo":"1413"}
+{"lang":"JSONiq","avg_kb_size_per_repo":"1393"}
+{"lang":"XML","avg_kb_size_per_repo":"1383"}
+{"lang":"Prolog","avg_kb_size_per_repo":"1360"}
+{"lang":"D","avg_kb_size_per_repo":"1282"}
+{"lang":"C#","avg_kb_size_per_repo":"1252"}
+{"lang":"Pascal","avg_kb_size_per_repo":"1191"}
+{"lang":"Logtalk","avg_kb_size_per_repo":"1127"}
+{"lang":"Erlang","avg_kb_size_per_repo":"1113"}
+{"lang":"GLSL","avg_kb_size_per_repo":"1098"}
+{"lang":"eC","avg_kb_size_per_repo":"1088"}
+{"lang":"KiCad","avg_kb_size_per_repo":"1085"}
+{"lang":"Objective-C++","avg_kb_size_per_repo":"1055"}
+{"lang":"Propeller Spin","avg_kb_size_per_repo":"920"}
+{"lang":"Pony","avg_kb_size_per_repo":"900"}
+{"lang":"Cucumber","avg_kb_size_per_repo":"868"}
+{"lang":"Java","avg_kb_size_per_repo":"855"}
+{"lang":"Frege","avg_kb_size_per_repo":"836"}
+{"lang":"Augeas","avg_kb_size_per_repo":"819"}
+{"lang":"Ada","avg_kb_size_per_repo":"798"}
+{"lang":"Smalltalk","avg_kb_size_per_repo":"797"}
+{"lang":"AutoIt","avg_kb_size_per_repo":"787"}
+{"lang":"Csound Score","avg_kb_size_per_repo":"776"}
+{"lang":"DIGITAL Command Language","avg_kb_size_per_repo":"741"}
+{"lang":"Coq","avg_kb_size_per_repo":"721"}
+{"lang":"Slash","avg_kb_size_per_repo":"719"}
+{"lang":"RAML","avg_kb_size_per_repo":"719"}
+{"lang":"Cuda","avg_kb_size_per_repo":"697"}
+{"lang":"Go","avg_kb_size_per_repo":"696"}
+{"lang":"Yacc","avg_kb_size_per_repo":"691"}
+{"lang":"Ragel in Ruby Host","avg_kb_size_per_repo":"673"}
+{"lang":"Self","avg_kb_size_per_repo":"639"}
+{"lang":"SourcePawn","avg_kb_size_per_repo":"632"}
+{"lang":"OCaml","avg_kb_size_per_repo":"629"}
+{"lang":"Nimrod","avg_kb_size_per_repo":"628"}
+{"lang":"Parrot","avg_kb_size_per_repo":"625"}
+{"lang":"PAWN","avg_kb_size_per_repo":"610"}
+{"lang":"Perl","avg_kb_size_per_repo":"605"}
+{"lang":"RenderScript","avg_kb_size_per_repo":"594"}
+{"lang":"XSLT","avg_kb_size_per_repo":"587"}
+{"lang":"Rebol","avg_kb_size_per_repo":"581"}
+{"lang":"ActionScript","avg_kb_size_per_repo":"581"}
+{"lang":"PicoLisp","avg_kb_size_per_repo":"557"}
+{"lang":"ooc","avg_kb_size_per_repo":"533"}
+{"lang":"SuperCollider","avg_kb_size_per_repo":"512"}
+{"lang":"Perl6","avg_kb_size_per_repo":"507"}
+{"lang":"XS","avg_kb_size_per_repo":"494"}
+{"lang":"Tcl","avg_kb_size_per_repo":"473"}
+{"lang":"FLUX","avg_kb_size_per_repo":"473"}
+{"lang":"Delphi","avg_kb_size_per_repo":"467"}
+{"lang":"E","avg_kb_size_per_repo":"466"}
+{"lang":"Apex","avg_kb_size_per_repo":"464"}
+{"lang":"REALbasic","avg_kb_size_per_repo":"461"}
+{"lang":"Makefile","avg_kb_size_per_repo":"447"}
+{"lang":"Vala","avg_kb_size_per_repo":"438"}
+{"lang":"Visual Basic","avg_kb_size_per_repo":"435"}
+{"lang":"IGOR Pro","avg_kb_size_per_repo":"412"}
+{"lang":"ColdFusion","avg_kb_size_per_repo":"406"}
+{"lang":"Python","avg_kb_size_per_repo":"403"}
+{"lang":"Ceylon","avg_kb_size_per_repo":"400"}
+{"lang":"Csound","avg_kb_size_per_repo":"399"}
+{"lang":"Matlab","avg_kb_size_per_repo":"397"}
+{"lang":"Scheme","avg_kb_size_per_repo":"390"}
+{"lang":"Smarty","avg_kb_size_per_repo":"387"}
+{"lang":"LabVIEW","avg_kb_size_per_repo":"386"}
+{"lang":"F#","avg_kb_size_per_repo":"383"}
+{"lang":"SystemVerilog","avg_kb_size_per_repo":"378"}
+{"lang":"Objective-C","avg_kb_size_per_repo":"364"}
+{"lang":"Inform 7","avg_kb_size_per_repo":"364"}
+{"lang":"xBase","avg_kb_size_per_repo":"362"}
+{"lang":"Gosu","avg_kb_size_per_repo":"353"}
+{"lang":"NetLogo","avg_kb_size_per_repo":"353"}
+{"lang":"Cool","avg_kb_size_per_repo":"353"}
+{"lang":"Lua","avg_kb_size_per_repo":"352"}
+{"lang":"Xojo","avg_kb_size_per_repo":"349"}
+{"lang":"ASP","avg_kb_size_per_repo":"348"}
+{"lang":"Harbour","avg_kb_size_per_repo":"344"}
+{"lang":"Common Lisp","avg_kb_size_per_repo":"342"}
+{"lang":"Dart","avg_kb_size_per_repo":"339"}
+{"lang":"SAS","avg_kb_size_per_repo":"334"}
+{"lang":"Rust","avg_kb_size_per_repo":"329"}
+{"lang":"Nix","avg_kb_size_per_repo":"321"}
+{"lang":"Clarion","avg_kb_size_per_repo":"321"}
+{"lang":"Mako","avg_kb_size_per_repo":"289"}
+{"lang":"QML","avg_kb_size_per_repo":"284"}
+{"lang":"NSIS","avg_kb_size_per_repo":"276"}
+{"lang":"TeX","avg_kb_size_per_repo":"273"}
+{"lang":"Terra","avg_kb_size_per_repo":"266"}
+{"lang":"Opa","avg_kb_size_per_repo":"256"}
+{"lang":"LSL","avg_kb_size_per_repo":"253"}
+{"lang":"AMPL","avg_kb_size_per_repo":"236"}
+{"lang":"Papyrus","avg_kb_size_per_repo":"227"}
+{"lang":"Processing","avg_kb_size_per_repo":"224"}
+{"lang":"Agda","avg_kb_size_per_repo":"215"}
+{"lang":"Hy","avg_kb_size_per_repo":"214"}
+{"lang":"VCL","avg_kb_size_per_repo":"212"}
+{"lang":"Turing","avg_kb_size_per_repo":"212"}
+{"lang":"Scala","avg_kb_size_per_repo":"211"}
+{"lang":"Brightscript","avg_kb_size_per_repo":"208"}
+{"lang":"BlitzMax","avg_kb_size_per_repo":"205"}
+{"lang":"Racket","avg_kb_size_per_repo":"199"}
+{"lang":"BlitzBasic","avg_kb_size_per_repo":"198"}
+{"lang":"Ren'Py","avg_kb_size_per_repo":"197"}
+{"lang":"Liquid","avg_kb_size_per_repo":"196"}
+{"lang":"NCL","avg_kb_size_per_repo":"192"}
+{"lang":"Inno Setup","avg_kb_size_per_repo":"190"}
+{"lang":"Mirah","avg_kb_size_per_repo":"186"}
+{"lang":"MAXScript","avg_kb_size_per_repo":"185"}
+{"lang":"Haxe","avg_kb_size_per_repo":"180"}
+{"lang":"FreeMarker","avg_kb_size_per_repo":"179"}
+{"lang":"TLA","avg_kb_size_per_repo":"172"}
+{"lang":"Fancy","avg_kb_size_per_repo":"167"}
+{"lang":"CMake","avg_kb_size_per_repo":"163"}
+{"lang":"CSS","avg_kb_size_per_repo":"161"}
+{"lang":"Ruby","avg_kb_size_per_repo":"160"}
+{"lang":"PowerShell","avg_kb_size_per_repo":"159"}
+{"lang":"M4","avg_kb_size_per_repo":"157"}
+{"lang":"XC","avg_kb_size_per_repo":"156"}
+{"lang":"VimL","avg_kb_size_per_repo":"153"}
+{"lang":"Haskell","avg_kb_size_per_repo":"152"}
+{"lang":"mupad","avg_kb_size_per_repo":"151"}
+{"lang":"Rascal","avg_kb_size_per_repo":"148"}
+{"lang":"Zephir","avg_kb_size_per_repo":"138"}
+{"lang":"BitBake","avg_kb_size_per_repo":"137"}
+{"lang":"Groovy","avg_kb_size_per_repo":"134"}
+{"lang":"Protocol Buffer","avg_kb_size_per_repo":"133"}
+{"lang":"ABAP","avg_kb_size_per_repo":"133"}
+{"lang":"UrWeb","avg_kb_size_per_repo":"130"}
+{"lang":"Io","avg_kb_size_per_repo":"130"}
+{"lang":"Oxygene","avg_kb_size_per_repo":"130"}
+{"lang":"Stata","avg_kb_size_per_repo":"129"}
+{"lang":"Bro","avg_kb_size_per_repo":"129"}
+{"lang":"OpenSCAD","avg_kb_size_per_repo":"126"}
+{"lang":"MQL5","avg_kb_size_per_repo":"125"}
+{"lang":"R","avg_kb_size_per_repo":"124"}
+{"lang":"Boo","avg_kb_size_per_repo":"120"}
+{"lang":"AspectJ","avg_kb_size_per_repo":"119"}
+{"lang":"wisp","avg_kb_size_per_repo":"115"}
+{"lang":"CoffeeScript","avg_kb_size_per_repo":"111"}
+{"lang":"Metal","avg_kb_size_per_repo":"111"}
+{"lang":"GAMS","avg_kb_size_per_repo":"109"}
+{"lang":"HLSL","avg_kb_size_per_repo":"109"}
+{"lang":"HCL","avg_kb_size_per_repo":"109"}
+{"lang":"PureBasic","avg_kb_size_per_repo":"105"}
+{"lang":"Mask","avg_kb_size_per_repo":"101"}
+{"lang":"Golo","avg_kb_size_per_repo":"99"}
+{"lang":"MQL4","avg_kb_size_per_repo":"92"}
+{"lang":"Julia","avg_kb_size_per_repo":"92"}
+{"lang":"Thrift","avg_kb_size_per_repo":"90"}
+{"lang":"AutoHotkey","avg_kb_size_per_repo":"88"}
+{"lang":"XQuery","avg_kb_size_per_repo":"88"}
+{"lang":"Hack","avg_kb_size_per_repo":"87"}
+{"lang":"Shell","avg_kb_size_per_repo":"86"}
+{"lang":"Kotlin","avg_kb_size_per_repo":"86"}
+{"lang":"GDB","avg_kb_size_per_repo":"85"}
+{"lang":"NetLinx","avg_kb_size_per_repo":"84"}
+{"lang":"XPages","avg_kb_size_per_repo":"84"}
+{"lang":"ChucK","avg_kb_size_per_repo":"83"}
+{"lang":"Xtend","avg_kb_size_per_repo":"82"}
+{"lang":"Swift","avg_kb_size_per_repo":"80"}
+{"lang":"RobotFramework","avg_kb_size_per_repo":"79"}
+{"lang":"Shen","avg_kb_size_per_repo":"76"}
+{"lang":"Redcode","avg_kb_size_per_repo":"74"}
+{"lang":"Monkey","avg_kb_size_per_repo":"72"}
+{"lang":"XProc","avg_kb_size_per_repo":"71"}
+{"lang":"Dylan","avg_kb_size_per_repo":"70"}
+{"lang":"Ox","avg_kb_size_per_repo":"69"}
+{"lang":"MTML","avg_kb_size_per_repo":"68"}
+{"lang":"Nu","avg_kb_size_per_repo":"68"}
+{"lang":"Lean","avg_kb_size_per_repo":"67"}
+{"lang":"J","avg_kb_size_per_repo":"64"}
+{"lang":"Grace","avg_kb_size_per_repo":"64"}
+{"lang":"Vue","avg_kb_size_per_repo":"62"}
+{"lang":"KRL","avg_kb_size_per_repo":"59"}
+{"lang":"Clojure","avg_kb_size_per_repo":"58"}
+{"lang":"GCC Machine Description","avg_kb_size_per_repo":"57"}
+{"lang":"DCPU-16 ASM","avg_kb_size_per_repo":"57"}
+{"lang":"LoomScript","avg_kb_size_per_repo":"54"}
+{"lang":"LilyPond","avg_kb_size_per_repo":"53"}
+{"lang":"Clean","avg_kb_size_per_repo":"53"}
+{"lang":"Zimpl","avg_kb_size_per_repo":"52"}
+{"lang":"Elixir","avg_kb_size_per_repo":"51"}
+{"lang":"Volt","avg_kb_size_per_repo":"50"}
+{"lang":"SRecode Template","avg_kb_size_per_repo":"50"}
+{"lang":"Pike","avg_kb_size_per_repo":"49"}
+{"lang":"Rouge","avg_kb_size_per_repo":"49"}
+{"lang":"Elm","avg_kb_size_per_repo":"45"}
+{"lang":"PureScript","avg_kb_size_per_repo":"43"}
+{"lang":"Batchfile","avg_kb_size_per_repo":"43"}
+{"lang":"Csound Document","avg_kb_size_per_repo":"41"}
+{"lang":"API Blueprint","avg_kb_size_per_repo":"40"}
+{"lang":"ANTLR","avg_kb_size_per_repo":"37"}
+{"lang":"ApacheConf","avg_kb_size_per_repo":"35"}
+{"lang":"MoonScript","avg_kb_size_per_repo":"35"}
+{"lang":"LiveScript","avg_kb_size_per_repo":"34"}
+{"lang":"Handlebars","avg_kb_size_per_repo":"34"}
+{"lang":"Nit","avg_kb_size_per_repo":"33"}
+{"lang":"PigLatin","avg_kb_size_per_repo":"33"}
+{"lang":"Squirrel","avg_kb_size_per_repo":"32"}
+{"lang":"LookML","avg_kb_size_per_repo":"31"}
+{"lang":"Bison","avg_kb_size_per_repo":"30"}
+{"lang":"Idris","avg_kb_size_per_repo":"28"}
+{"lang":"CartoCSS","avg_kb_size_per_repo":"28"}
+{"lang":"Crystal","avg_kb_size_per_repo":"26"}
+{"lang":"SaltStack","avg_kb_size_per_repo":"26"}
+{"lang":"Fantom","avg_kb_size_per_repo":"25"}
+{"lang":"GDScript","avg_kb_size_per_repo":"25"}
+{"lang":"Puppet","avg_kb_size_per_repo":"24"}
+{"lang":"Uno","avg_kb_size_per_repo":"24"}
+{"lang":"Cap'n Proto","avg_kb_size_per_repo":"24"}
+{"lang":"AppleScript","avg_kb_size_per_repo":"23"}
+{"lang":"QMake","avg_kb_size_per_repo":"22"}
+{"lang":"Arduino","avg_kb_size_per_repo":"21"}
+{"lang":"Alloy","avg_kb_size_per_repo":"21"}
+{"lang":"Awk","avg_kb_size_per_repo":"18"}
+{"lang":"Cycript","avg_kb_size_per_repo":"17"}
+{"lang":"Opal","avg_kb_size_per_repo":"14"}
+{"lang":"Ioke","avg_kb_size_per_repo":"13"}
+{"lang":"Cirru","avg_kb_size_per_repo":"12"}
+{"lang":"DTrace","avg_kb_size_per_repo":"9"}
+{"lang":"JFlex","avg_kb_size_per_repo":"9"}
+{"lang":"EmberScript","avg_kb_size_per_repo":"9"}
+{"lang":"PogoScript","avg_kb_size_per_repo":"9"}
+{"lang":"LOLCODE","avg_kb_size_per_repo":"8"}
+{"lang":"Stan","avg_kb_size_per_repo":"6"}
+{"lang":"Kit","avg_kb_size_per_repo":"6"}
+{"lang":"Dogescript","avg_kb_size_per_repo":"4"}
+{"lang":"Befunge","avg_kb_size_per_repo":"2"}
+{"lang":"Module Management System","avg_kb_size_per_repo":"2"}
+{"lang":"Nginx","avg_kb_size_per_repo":"2"}
+{"lang":"WebIDL","avg_kb_size_per_repo":"1"}
