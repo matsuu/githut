@@ -9,6 +9,7 @@ import { mapValues, first, map, split } from 'lodash/fp'
 export class EventStore {
 
   @observable data = {}
+  @observable ready = false;
   @observable event = [
     {"Pull Requests": pullRequests},
     {"Pushes": pushEvent},
@@ -41,6 +42,7 @@ export class EventStore {
   @action async fetchData(json) {
     const { data } = await axios.get(json)
     this.data = data | this.parseJSON
+    this.ready = true
   }
 
   @computed get getData() {

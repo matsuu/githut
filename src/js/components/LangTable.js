@@ -1,6 +1,6 @@
 import React from 'react'
 import { filter, sortBy, reverse, toString, omitBy, isNil, first,
-    assign, take, includes, reject, pick, map } from 'lodash/fp'
+    assign, take, includes, reject, pick, map, isEqual } from 'lodash/fp'
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table'
 import { NonLangStore } from '../stores/NonLangStore'
 import { observer } from 'mobx-react'
@@ -69,15 +69,22 @@ export default class LangTable extends React.Component {
 
     componentDidMount() {
     this.handler = autorun(() => {
+        if (!(this.props.store.ready))
+            return
+
         const data = this.props.store.getData
-        if (data.length > 1000) {
-            const { year, quarter } = data | this.latestDate
-            const dec = i => --i | toString
-            const curYearRanking = this.filterDate(data, year, quarter)
-            const lastYearRanking = this.filterDate(data, dec(year), quarter)
-            const langRanking = this.getTrend(curYearRanking, lastYearRanking)
-            this.setState({data: langRanking})
-        }
+        const { year, quarter } = data | this.latestDate
+        const dec = i => --i | toString
+        const curYearRanking = this.filterDate(data, year, quarter)
+        const lastYearRanking = this.filterDate(data, dec(year), quarter)
+        const langRanking = this.getTrend(curYearRanking, lastYearRanking)
+        const newState = {
+                ...this.state,
+                data: langRanking
+           }
+
+        if (!isEqual(this.state, newState))
+            this.setState(newState)
       })
     }
 
@@ -86,9 +93,6 @@ export default class LangTable extends React.Component {
     }
 
     render() {
-        if (this.props.store.getData.length < 1000
-            || this.state.data.length < 50)
-            return null
         return (
             <BootstrapTable
                 condensed
